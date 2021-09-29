@@ -2,7 +2,7 @@
 
 Implementation of YOLOv2 on matlab adapted from the default example at : https://www.mathworks.com/help/deeplearning/ug/object-detection-using-yolo-v2.html, For more information, see Getting Started with YOLO v2 (Computer Vision Toolbox).
 
-This example shows how to train a you only look once (YOLO) v2 object detector.This example trains a YOLO v2 vehicle detector using the trainYOLOv2ObjectDetector function. Deep learning is a powerful machine learning technique that you can use to train robust object detectors. Several techniques for object detection exist, including Faster R-CNN and you only look once (YOLO) v2. This example trains a YOLO v2 vehicle detector using the trainYOLOv2ObjectDetector function. You can also choose to train your own R-CNN .
+This project shows how to train a you only look once (YOLO) v2 object detector. Deep learning is a powerful machine learning technique that you can use to train robust object detectors. Several techniques for object detection exist, including Faster R-CNN and you only look once (YOLO) v2. This project trains a YOLO v2 vehicle detector using the trainYOLOv2ObjectDetector function using a vehicule Dataset,first option is to use the default YOLOv2 NN: ResNet or you can also choose to train your own CNN with your own parameters.
 
 Once the training is completed an evaluation phase is performed to see our success rate in pictures : 
 
